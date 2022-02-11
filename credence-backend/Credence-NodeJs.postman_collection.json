@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "94a83a8a-082e-42c1-ad7f-c3b1ef84c39e",
+		"name": "Credence-NodeJs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\"name\": \"Harry Potter and the Order of the Phoenix\", \r\n\"img\": \"https://bit.ly/2IcnSwz\", \r\n\"summary\": \"Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry.\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:5001/api/v1"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\"name\": \"Harry Potter and the Order of the Phoenix\", \r\n\"img\": \"https://bit.ly/2IcnSwz\", \r\n\"summary\": \"Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry.\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:5001/api/v1/6203fe826e250b58dc95ce5b"
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:5001/api/v1/6203fe826e250b58dc95ce5b"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n\"name\": \"Harry Potter and the Order of the Phoenix\", \r\n\"img\": \"https://bit.ly/2IcnSwz\", \r\n\"summary\": \"Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry.\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:5001/api/v1/6203fa62c57422021e282883"
+			},
+			"response": []
+		}
+	]
+}
